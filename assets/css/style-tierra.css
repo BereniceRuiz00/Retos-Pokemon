@@ -1,0 +1,73 @@
+.cajapokemon {
+  margin: 20px;
+  background-color: white;
+  opacity: 0.94;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(79, 241, 79);
+  border-radius: 35px;
+  border-top: solid 0px;
+  width: fit-content;
+}
+
+.Logopokemon {
+  margin: 18px;
+  text-align: center;
+}
+
+#logo {
+  width: 252px;
+}
+
+.pokemon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-image: url(/assets/img/fondopokemon.png);
+}
+
+.nombrepokemon {
+  font-size: 25px;
+  font-family: fantasy;
+  padding: 22px 32px 22px 22px;
+  color: #d80c03;
+  text-align: left;
+}
+
+.imagenpokemon {
+  padding: 0px 22px 0px 22px;
+  text-align: center;
+}
+
+img {
+  width: 192px;
+}
+
+.descripcion {
+  font-size: 14px;
+  border-top-color: #d80c03;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: justify;
+}
+
+.footer {
+  display: flex;
+  padding: 8px;
+
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.enlacepokemon {
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  border-radius: 15px;
+  padding: 6px;
+  background-color: #5281f0;
+}

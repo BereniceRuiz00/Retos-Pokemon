@@ -1,0 +1,81 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+
+.nabar{
+   margin: 0 auto;
+  
+ 
+}
+
+.divnombre img{
+    width: 550px;
+}
+.divnombre {
+    text-align: center;
+    
+}
+span{
+    font-size: 10px;
+}
+
+.Discografiafav img{
+    text-align: center;
+  
+}
+
+div{
+    
+}
+.Discografiafav h2{
+    text-align: left;
+}
+.divbiografia{
+    margin: 22px;
+   
+}
+.Discografiafav{
+    margin: 22px;
+    padding-top: 22px;
+}
+.divnombre{
+    margin: 22px;
+    padding-top: 22px;
+}
+.Enlace{
+    margin: 22px;
+    padding-top: 22px;
+}
+nav {
+    position: sticky;
+    top: 0;
+    
+    /*display flex porque solo ocupamos una columna*/
+    
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+    background: #2c033a;
+    /* animacion */
+    transition: top 500ms ease-in-out;
+  }
+  nav a {
+    padding: 12px;
+    color: rgb(251, 249, 251);
+    text-decoration: none; /*quitar decoracion de texto predeterminado*/
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+  .navbar{
+    text-align: center;
+  }
+
+  h3,h2,h4{
+    color: #2c033a;
+  }
+  div{
+    margin: 10px;
+  }
+  p{
+    text-align: justify;
+  }
